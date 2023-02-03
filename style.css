@@ -3,6 +3,7 @@ body {
     background-color: #1f2937;
     padding: 0px;
     margin: 0px;
+    
 }
 .container {
     display: flex;
@@ -39,6 +40,8 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 80px 160px;
+    gap: 20px;
 }
 .hero h1 {
     color: #f9faf8;
@@ -64,6 +67,27 @@ img{
     width: auto;
     height: 300px;
 }
-.hero {
-    padding: 100px;
+
+.information {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+}
+.information h2 {
+    padding: 20px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 150px 100px;
+    gap: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.info-container img {
+    border-radius: 8px;
 }
