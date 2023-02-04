@@ -1,6 +1,6 @@
 body {
     font-family: 'roboto', Arial, sans-serif;
-    background-color: #1f2937;
+    background-color: #f9faf8;
     padding: 0px;
     margin: 0px;
     
@@ -15,6 +15,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #1f2937;
     color: #f9faf8;
     font-size: 18px;
     align-items: center;
@@ -36,12 +37,14 @@ a {
 }
 
 /* Hero */
+
 .hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 80px 160px;
     gap: 20px;
+    background-color: #1f2937;
 }
 .hero h1 {
     color: #f9faf8;
@@ -56,7 +59,7 @@ a {
 }
 .hero-btn{
     margin-top: 10px;
-    border-radius: 3px;
+    border-radius: 6px;
     border-style: none;
     background-color: #3882f6;
     color: #f9faf8;
@@ -67,6 +70,8 @@ img{
     width: auto;
     height: 300px;
 }
+
+/* Information  */
 
 .information {
     display: flex;
@@ -89,5 +94,84 @@ img{
     margin-right: 300px;
 }
 .info-container img {
-    border-radius: 8px;
+    border-radius: 8%;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-style: solid;
+    width: 240px;
+    height: auto;
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    flex-direction: column;
+    padding: 100px 400px 100px 400px;
+}
+.quote p {
+    margin-bottom: 0px;
+}
+.author {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/* Sign-up */
+
+.modal {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto 100px auto;
+    padding: 20px 100px 20px 100px;
+    border-radius: 12px;
+    width: 1200px;
+    height: 120px;
+}
+.sign-up-reminder {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 28px;
+    padding: 10px;
+}
+.sign-up-pointer {
+    color: #e5e7eb;
+    font-weight: 300;
+    font-size: 20px;
+}
+.sign-up-button {
+    margin-top: 10px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 4px 16px;
+    font-weight: 900;
+    font-size: 28px;
+    padding: 6px 48px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
